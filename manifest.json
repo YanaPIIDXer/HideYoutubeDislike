@@ -1,0 +1,10 @@
+{
+    "name": "Hide Youtube Dislike",
+    "description": "Hide dislike button at youtube.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["https://*.youtube.com/watch*"],
+        "css": ["hide_dislike.css"]
+    }]
+}

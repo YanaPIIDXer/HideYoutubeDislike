@@ -1,0 +1,4 @@
+ytd-toggle-button-renderer:nth-of-type(2), ytd-sentiment-bar-renderer
+{
+    display: none;
+};
