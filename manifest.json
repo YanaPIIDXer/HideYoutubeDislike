@@ -5,6 +5,7 @@
     "manifest_version": 2,
     "content_scripts": [{
         "matches": ["https://*.youtube.com/watch*"],
-        "css": ["hide_dislike.css"]
+        "css": ["hide_dislike.css"],
+        "js": ["hide_sentiment_bar.js"]
     }]
 }
