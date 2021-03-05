@@ -4,7 +4,7 @@
     "version": "1.0",
     "manifest_version": 2,
     "content_scripts": [{
-        "matches": ["https://*.youtube.com/watch*"],
+        "matches": ["https://*.youtube.com/*"],
         "css": ["hide_dislike.css"],
         "js": ["hide_sentiment_bar.js"]
     }]

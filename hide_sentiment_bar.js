@@ -2,7 +2,10 @@
 // ※CSSでやりたいんだけど何故か上手く行かないのでJavaScriptで強引に対応。
 window.addEventListener("load", function ()
 {
-    var bar = document.getElementById("sentiment");
-    if (bar === undefined) { return; }
-    bar.style.display = "none";    
+    setTimeout(function ()
+    {
+        var bar = document.getElementById("sentiment");
+        if (bar === undefined) { return; }
+        bar.style.display = "none";    
+    }, 500);
 }, false);
