@@ -4,6 +4,6 @@ window.addEventListener("load", function () {
     setInterval(() => {
         var bar = document.getElementById("sentiment");
         if (bar === undefined) { return; }
-        bar.style.display = "none";
+        bar.remove();
     }, 500);
 }, false);
